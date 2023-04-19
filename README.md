@@ -11,6 +11,6 @@ Our model is based on an abstraction over the distributional statistics of the o
 
 We start by localizing the objects in the images as the centroid of the parallelogram of its bounding box. Starting from these coordinates, we calculate all the pairwise distances between the objects in the image (see the figure below). We then constructed a squared Euclidean distance matrix between all the object pairs coordinates. All the matrix entries corresponding to objects in the VG vocabulary that were not present in $v$ were set to 0. 
 
-
+<p align="center">
 <img src="https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_net.png?raw=true" width="600" height="500">
-
+</p>
