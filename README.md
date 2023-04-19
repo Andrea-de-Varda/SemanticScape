@@ -10,3 +10,6 @@ SemanticScape is effective in capturing human explicit intuitions on semantic an
 Our model is based on an abstraction over the distributional statistics of the objects' locations in natural images. Our model is trained on [Visual Genome](https://link.springer.com/article/10.1007/s11263-016-0981-7), a dataset specifically designed to foster AI research in cognitive tasks. It starts by calculating 
 
 We start by localizing the object in the ima
+
+![alt text](https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_labels.png?raw=true)
+
