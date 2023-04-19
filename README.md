@@ -32,13 +32,10 @@ If you are interested in the models of higher dimensionality (which, by the way,
 
 ## Model
 
-Solarized dark             |  Solarized Ocean
+Locating objects           |  Calculating distances
 :-------------------------:|:-------------------------:
-![](https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_net.png?raw=true)  |  ![](https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_labels.png?raw=true)
+![](https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_labels.png?raw=true)  |  ![](https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_net.png?raw=true)
 
-<p align="center">
-<img src="https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_net.png?raw=true" width="480" height="400">
-</p>
 
 Our model is based on an abstraction over the distributional statistics of the objects' locations in natural images. Our model is trained on [Visual Genome](https://link.springer.com/article/10.1007/s11263-016-0981-7), a dataset specifically designed to foster AI research in cognitive tasks.
 
