@@ -7,9 +7,9 @@ SemanticScape is a semantic model grounded in the visual relationships between o
 SemanticScape is effective in capturing human explicit intuitions on semantic and visual similarity, relatedness, analogical reasoning, and several semantic and visual implicit processing measurements.
 
 ## Model
-Our model is based on an abstraction over the distributional statistics of the objects' locations in natural images. Our model is trained on [Visual Genome](https://link.springer.com/article/10.1007/s11263-016-0981-7), a dataset specifically designed to foster AI research in cognitive tasks. It starts by calculating 
+Our model is based on an abstraction over the distributional statistics of the objects' locations in natural images. Our model is trained on [Visual Genome](https://link.springer.com/article/10.1007/s11263-016-0981-7), a dataset specifically designed to foster AI research in cognitive tasks.
 
-We start by localizing the objects in the images as the centroid of the parallelogram of its bounding box. Starting from these coordinates, we calculated all the pairwise distances between the objects in the image. These first two steps (identifying the objects' positions and relative distances) are graphically depicted in Figure \ref{fig:VizGen}. We then constructed a squared Euclidean distance matrix $\mathbf{A}_v \in \mathbb{R}^{N \times N}_{+}$ (where $N = 82,827$ is the size of the vocabulary) between all the $O_i, O_j$ object pairs coordinates. All the matrix entries corresponding to objects in the VG vocabulary that were not present in $v$ were set to 0. 
+We start by localizing the objects in the images as the centroid of the parallelogram of its bounding box. Starting from these coordinates, we calculate all the pairwise distances between the objects in the image (see the figure below). We then constructed a squared Euclidean distance matrix $A_v \in R^{N \times N}_{+}$ (where $N = 82,827$ is the size of the vocabulary) between all the $O_i, O_j$ object pairs coordinates. All the matrix entries corresponding to objects in the VG vocabulary that were not present in $v$ were set to 0. 
 
-![alt text](https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_labels.png?raw=true)
+![alt text](https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_net.png?raw=true)
 
