@@ -21,11 +21,11 @@ We validated our model against several cognitive benchmarks. We list here the so
 
 - Visual benchmarks:
   - ViSpa concept representations ([data](https://sites.google.com/site/fritzgntr/software-resources/vispa))
-  - ViSpa test data, released by Günther et al., 2022 ([paper](https://www.researchgate.net/publication/355415433_ViSpa_Vision_Spaces_A_computer-vision-based_representation_system_for_individual_images_and_concept_prototypes_with_large-scale_evaluation)|[data](https://osf.io/qvw9c)).
+  - ViSpa test data ([paper](https://www.researchgate.net/publication/355415433_ViSpa_Vision_Spaces_A_computer-vision-based_representation_system_for_individual_images_and_concept_prototypes_with_large-scale_evaluation)|[data](https://osf.io/qvw9c)).
 - Semantic benchmarks:
   - word2vec representations ([paper](https://arxiv.org/abs/1301.3781)|[data](https://github.com/Unipisa/DSMs-evaluation))
-  - SimLex-999 taxonomic similarity, released by Hill et al., 2015 ([paper](https://arxiv.org/abs/1408.3456v1)|[data](https://fh295.github.io/simlex.html)).
-  - Evocation judgements, released by Nikolova et al., 2009 ([paper](https://link.springer.com/chapter/10.1007/978-3-642-22613-7_5)|[data](http://wordnet.cs.princeton.edu/downloads.html))
+  - SimLex-999 taxonomic similarity ([paper](https://arxiv.org/abs/1408.3456v1)|[data](https://fh295.github.io/simlex.html)).
+  - Evocation judgements ([paper](https://link.springer.com/chapter/10.1007/978-3-642-22613-7_5)|[data](http://wordnet.cs.princeton.edu/downloads.html))
   - Semantic Priming Project ([paper](https://link.springer.com/article/10.3758/s13428-012-0304-z)|[data](https://osf.io/n7gqa/))
 - Analogy
   - Bigger Analogy Test Set ([paper](https://aclanthology.org/N16-2002.pdf)|[data](https://u.pcloud.link/publink/show?code=XZOn0J7Z8fzFMt7Tw1mGS6uI1SYfCfTyJQTV)) 
