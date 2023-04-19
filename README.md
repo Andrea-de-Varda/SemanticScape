@@ -20,6 +20,6 @@ We start by localizing the objects in the images as the centroid of the parallel
 We validated our model against several cognitive benchmarks. We list here the sources for those who wish to replicate our results:
 
 - Visual benchmarks:
-  - ViSpa data, released by [Günther et al., 2022](https://osf.io/qvw9c).
+  - ViSpa data, released by Günther et al., 2022 [(paper ](https://www.researchgate.net/publication/355415433_ViSpa_Vision_Spaces_A_computer-vision-based_representation_system_for_individual_images_and_concept_prototypes_with_large-scale_evaluation)[| data)](https://osf.io/qvw9c).
   - 
 
