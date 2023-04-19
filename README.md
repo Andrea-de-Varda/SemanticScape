@@ -16,4 +16,10 @@ Our model is based on an abstraction over the distributional statistics of the o
 
 We start by localizing the objects in the images as the centroid of the parallelogram of their bounding box. Starting from these coordinates, we calculate all the pairwise distances between the objects in the image (see the figure above). We thus construct a squared Euclidean distance matrix between all the object pairs coordinates. We convert distances to ranks, and decompose the matrix through Singular Value Decomposition. 
 
+### Validation
+We validated our model against several cognitive benchmarks. We list here the sources for those who wish to replicate our results:
+
+- Visual benchmarks:
+  - ViSpa data, released by [Günther et al., 2022](https://osf.io/qvw9c).
+  - 
 
