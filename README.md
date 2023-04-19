@@ -32,6 +32,10 @@ If you are interested in the models of higher dimensionality (which, by the way,
 
 ## Model
 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_net.png?raw=true)  |  ![](https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_labels.png?raw=true)
+
 <p align="center">
 <img src="https://github.com/Andrea-de-Varda/SemanticScape/blob/main/figures/img_with_net.png?raw=true" width="480" height="400">
 </p>
