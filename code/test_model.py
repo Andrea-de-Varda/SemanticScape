@@ -180,7 +180,7 @@ print(print_model)
 # thematic associations # (see http://wordnet.cs.princeton.edu/downloads.html)
 #########################
 
-them_labels = open("/home/dev/Documents/Datasets/Taxo-Them/ThematicAssociation/controlled.synsets").readlines()
+them_labels = open("/path/to/your/ThematicAssociation/controlled.synsets").readlines()
 them_pairs = []
 for line in them_labels:
     w1, w2 = line.split(" ")
@@ -189,7 +189,7 @@ for line in them_labels:
     w2 = re.sub("\n", "", w2)
     them_pairs.append([w1, w2])
     
-them_values = open("/home/dev/Documents/Datasets/Taxo-Them/ThematicAssociation/controlled.standard").readlines()
+them_values = open("/path/to/your/ThematicAssociation/controlled.standard").readlines()
 them_scores = []
 for line in them_values:
     line = [float(n) for n in re.sub("\n", "", line).split(" ") if n]
