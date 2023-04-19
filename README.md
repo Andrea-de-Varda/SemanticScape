@@ -7,13 +7,23 @@ SemanticScape is a semantic model grounded in the visual relationships between o
 SemanticScape is effective in capturing human explicit intuitions on semantic and visual similarity, relatedness, analogical reasoning, and several semantic and visual implicit processing measurements.
 
 ## Pre-trained models
-In this repository, you can find the 2-, 3-, 5-, 10-, 15-, 20-, 25-, 30-, and 50-dimensional models saved as pickle files. In our analyses, the best-performing model was the 25-dimensional one. The models can be uploaded with few lines of code: 
+In this repository, you can find the 2-, 3-, 5-, 10-, 15-, 20-, 25-, 30-, and 50-dimensional models saved as pickle files. In our analyses, the best-performing model was the 25-dimensional one. The models can be downloaded from the folder `trained-models`, and uploaded with few lines of code: 
 
 ```python
 import pickle
 
 with open("vizgen_rank_25D", 'rb') as handle:
     d_25d = pickle.load(handle)
+```
+
+You might want to use our model to calculate the SemanticScape-based similarity between two words or concepts. To do so, the metric we recommend is the cosine similarity:
+
+```python
+def cosine(a, b):
+    cos_sim = np.dot(a, b)/(np.linalg.norm(a)*np.linalg.norm(b))
+    return cos_sim
+
+print(cosine(d_25d["dog"], d_25d["leash"]))
 ```
 
 If you are interested in the models of higher dimensionality (which, by the way, did not perform very well), please open an issue and I will share them with you. 
