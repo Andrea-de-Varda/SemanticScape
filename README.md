@@ -19,6 +19,8 @@ with open("vizgen_rank_25D", 'rb') as handle:
 You might want to use our model to calculate the SemanticScape-based similarity between two words or concepts. To do so, the metric we recommend is the cosine similarity:
 
 ```python
+import numpy as np
+
 def cosine(a, b):
     cos_sim = np.dot(a, b)/(np.linalg.norm(a)*np.linalg.norm(b))
     return cos_sim
