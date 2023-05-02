@@ -1,4 +1,5 @@
 import json
+import os
 from scipy.spatial import distance_matrix
 from tqdm import tqdm
 import scipy.sparse as sp
