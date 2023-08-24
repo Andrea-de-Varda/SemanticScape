@@ -28,6 +28,8 @@ def cosine(a, b):
 print(cosine(d_25d["dog"], d_25d["leash"]))
 ```
 
+The pre-trained 25-dimensional model is also available in csv (compressed; `trained-models/SemanticScape_25D.zip`) and json format (`trained-models/d_25d.json`). This might be useful if you are not working in Python. 
+
 If you are interested in the models of higher dimensionality (which, by the way, did not perform very well), please open an issue and I will share them with you. 
 
 ## Model
